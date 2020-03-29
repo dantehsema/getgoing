@@ -6,9 +6,11 @@ import { AuthService } from '../auth.service';
   templateUrl: './register.component.html',
   styleUrls: ['./register.component.css']
 })
+
+
 export class RegisterComponent implements OnInit {
 
-  registerUserData = {}
+  registerUserData = {email : null, password : null}
   constructor(private _auth: AuthService) { }
 
   ngOnInit(): void {

@@ -9,7 +9,7 @@ import { RegisterComponent } from './register/register.component';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: '/events',
+    redirectTo: 'events',
     pathMatch: 'full'
   },
   {
