@@ -1,2 +1,2 @@
 # getgoing
-An app to let users 
+An app to helps users plan awesome trips
